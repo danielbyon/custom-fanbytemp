@@ -123,7 +123,7 @@ function fan_percent($temp)
         return round($temp / 2 + 25);
     }
     if ($temp >= 50 && $temp < 75) {
-        return round($temp + 15);
+        return round($temp);
     }
     return 100;
 }
